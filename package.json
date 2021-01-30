@@ -1,7 +1,7 @@
 {
-  "name": "parcel-plugin-inliner",
+  "name": "parcel-plugin-inline-data",
   "description": "Inline all flagged files as data url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "san",
   "keywords": [
     "parcel",
