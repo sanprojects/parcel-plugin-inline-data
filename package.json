@@ -1,0 +1,46 @@
+{
+  "name": "parcel-plugin-inliner",
+  "description": "Inline all flagged files as data url",
+  "version": "1.0.0",
+  "author": "san",
+  "keywords": [
+    "parcel",
+    "parcel-plugin",
+    "plugin",
+    "inline",
+    "inline-source",
+    "html",
+    "js",
+    "css"
+  ],
+  "dependencies": {
+    "mime-types": "^2.1.28",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "handlebars": "^4.7.6",
+    "husky": "^4.3.6",
+    "lint-staged": "^10.5.3",
+    "memory-fs": "*",
+    "mocha": "^8.2.1",
+    "nock": "^13.0.5",
+    "prettier": "^2.2.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "publish": "npm publish",
+    "format": "prettier --write './{lib,test}/**/*.{js,json,css}'",
+    "lint": "eslint './{lib,test}/**/*.js'",
+    "test": "NODE_ENV=test mocha --reporter spec --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingqiao/parcel-plugin-inline-source.git"
+  },
+  "readmeFilename": "README.md",
+  "license": "MIT"
+}
